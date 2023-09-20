@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Добро пожаловать на наш сайт!</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #2ecc71;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            font-size: 36px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .main-content {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 40px;
+            background-color: #ffffff;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .welcome-message {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #2c3e50;
+        }
+
+        .features-section {
+            padding: 60px 0;
+            background-color: #f9f9f9;
+        }
+
+        .feature {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .feature-icon {
+            font-size: 48px;
+            color: #2ecc71;
+            margin-bottom: 15px;
+        }
+
+        .feature-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .feature-description {
+            font-size: 18px;
+            color: #7f8c8d;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .cta-section {
+            padding: 60px 0;
+            background-color: #e74c3c;
+            color: white;
+        }
+
+        .cta-title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        .cta-description {
+            font-size: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 20px 40px;
+            background-color: #2ecc71;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 24px;
+            margin-top: 30px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #27ae60;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .footer-link {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на наш сайт!</h1>
+    </header>
+    <div class="main-content">
+        <p class="welcome-message">Добро пожаловать на наш красивый сайт размещения объявлений о продаже автомобилей.</p>
+        <a href="/admin/" class="cta-button">Перейти в админку</a>
+    </div>
+
+    <section class="features-section">
+        <div class="feature">
+            <div class="feature-icon">&#9742;</div>
+            <div class="feature-title">Простота использования</div>
+            <div class="feature-description">Мы создали простой и интуитивно понятный интерфейс, чтобы вы могли быстро разместить свое объявление о продаже автомобиля.</div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">&#128663;</div>
+            <div class="feature-title">Большой выбор</div>
+            <div class="feature-description">У нас представлен огромный выбор автомобилей различных марок, моделей и ценовых категорий.</div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">&#128197;</div>
+            <div class="feature-title">Безопасность</div>
+            <div class="feature-description">Мы обеспечиваем безопасные сделки и проверяем всех продавцов, чтобы защитить вас от мошенничества.</div>
+        </div>
+    </section>
+    <section class="cta-section">
+        <div class="cta-title">Готовы начать?</div>
+        <div class="cta-description">Разместите свое объявление прямо сейчас и найдите покупателя в кратчайшие сроки.</div>
+        <a href="/place-ad/" class="cta-button">Разместить объявление</a>
+    </section>
+
+    <footer>
+        <div>© 2023 Наш сайт. Все права защищены.</div>
+        <div>
+            <a href="/about/" class="footer-link">О нас</a>
+            <a href="/contact/" class="footer-link">Контакты</a>
+            <a href="/privacy-policy/" class="footer-link">Политика конфиденциальности</a>
+        </div>
+    </footer>
+</body>
+</html>

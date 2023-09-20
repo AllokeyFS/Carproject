@@ -1,0 +1,5 @@
+venv/
+db.sqlite3
+celerybeat-schedule
+__pycache__
+migrations
